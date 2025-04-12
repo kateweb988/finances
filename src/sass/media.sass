@@ -88,6 +88,10 @@
          margin-bottom: 0
    .solutions__item, .solutions__item:nth-child(4), .solutions__item:nth-child(5)
       width: 48.5%
+   .solutions__row
+      justify-content: center
+      div 
+         margin: 5px
 @media ( max-width: 991px )
    input, textarea, select
       -webkit-appearance: none
@@ -184,6 +188,10 @@
       font-size: 16px
    .what__item
       padding: 20px
+   .solutions__row
+      justify-content: space-between
+      div 
+         margin: 0 0 10px
 @media screen and (max-width: 576px)
    button:active, button:focus 
       outline: none
@@ -353,6 +361,22 @@
       margin-bottom: 7px
    .why h2
       margin-bottom: 22px
+   .solutions:before
+      height: 6% !important 
+   .footer__list
+      li 
+         &:nth-child(1)
+            order: 1
+         &:nth-child(2)
+            order: 4
+         &:nth-child(3)
+            order: 2
+         &:nth-child(4)
+            order: 5
+         &:nth-child(5)
+            order: 3
+         &:nth-child(6)
+            order: 6
 @media screen and (max-width: 389px)
    .nav__info p
       font-size: 9px
